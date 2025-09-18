@@ -1,0 +1,33 @@
+*{
+    background-color:#EEEDE7 ;
+}
+
+/* navbar css  */
+.nav-container{
+ display: flex;
+ align-items: center; 
+ justify-content: space-between;
+ max-width: 80%;
+ margin: auto;
+}
+.nav-first{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+.nav-first img {
+    height: 51px;
+    width: 51px ;
+}
+.nav-sec{
+    display: flex;
+    gap: 30px;
+}
+.nav-sec a {
+    text-decoration: none;
+    color: black;
+    font-style:normal ;
+    text-transform: capitalize;
+}
+
+ 
