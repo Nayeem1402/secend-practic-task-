@@ -1,12 +1,13 @@
  /* navbar css  */
 
- *{
-    background: #EEEDE7;
+ * {
+     background: #EEEDE7;
  }
 
- .prim-font{
-color: #503217;
-}
+ .prim-font {
+     color: #503217;
+ }
+
  .nav-container {
      display: flex;
      align-items: center;
@@ -49,9 +50,9 @@ color: #503217;
      width: 80%;
      margin: 10px auto;
      display: flex;
-     align-items: center ;
+     align-items: center;
      justify-content: space-between;
-      background-color: #E8E6DE;
+     background-color: #E8E6DE;
 
  }
 
@@ -67,32 +68,65 @@ color: #503217;
  }
 
  /* shop  */
- .shop-container{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin:60px auto;
+ .shop-container {
+     display: flex;
+     justify-content: space-between;
+     width: 80%;
+     margin: 60px auto;
  }
-.product-container{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-}
- .product-card-container{
-    display: flex;
+
+ .product-container {
+     display: flex;
+     justify-content: space-between;
+     width: 80%;
+     margin: auto;
+ }
+
+ .product-card-container {
+     display: flex;
      align-items: center;
      gap: 20px;
-    background: white;
+     background: white;
      width: fit-content;
      border-radius: 15px;
      padding: 25px 20px;
      width: 450px;
  }
- .p-card{
-    padding: 10px 15px;
-    border: none;
-    border-radius:15px ;
-    background:#D3744A;
-    color: white;
+
+ .p-card {
+     padding: 10px 15px;
+     border: none;
+     border-radius: 15px;
+     background: #D3744A;
+     color: white;
+ }
+
+ .p-main-container {
+     max-width: 300px;
+     width: 300px;
+    
+
+ }
+
+ .p-img-container {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     background: white;
+     border-radius: 20px;
+     max-height: 262px;
+     padding: 30px;
+
+
+ }
+
+ .pbtn {
+     color: white;
+     background: #D3744A;
+     padding: 5px 10px;
+     border: none;
+     border-radius: 20px;
+     position: absolute;
+     left: 10px;
+     top: 10px;
  }
