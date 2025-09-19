@@ -130,3 +130,11 @@
      left: 10px;
      top: 10px;
  }
+
+ .happy-container{
+    max-width: 80%;
+    margin: auto;
+
+    background: white;
+    padding: 20px;
+ }
